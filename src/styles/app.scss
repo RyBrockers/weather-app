@@ -1,0 +1,99 @@
+.forecast {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 20px;
+}
+
+.forecast__summaries {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast__summary {
+  min-width: 20%;
+}
+
+.forecast__details__detail__label,
+.forecast__summary--selected {
+  font-weight: bold;
+}
+
+.forecast__summary__icon {
+  font-size: 60px;
+  padding: 10px 0;
+}
+
+.forecast__summary__button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.forecast__details {
+  text-align: center;
+}
+
+.forecast__details__date {
+  margin: 30px 0 10px;
+}
+
+.forecast__details__detail__label {
+  margin: 0 5px 0 0;
+}
+
+.forecast__details__detail {
+  padding: 0 0 10px;
+}
+
+[class*='wi-towards-'] {
+  &:before {
+    content: "\f0b1"
+  }
+}
+.wi-towards-ssw {
+  transform: rotate(202.5deg);
+}
+.wi-towards-sw {
+  transform: rotate(225deg);
+}
+.wi-towards-wsw {
+  transform: rotate(247.5deg);
+}
+.wi-towards-w {
+  transform: rotate(270deg);
+}
+.wi-towards-wnw {
+  transform: rotate(292.5deg);
+}
+.wi-towards-nw {
+  transform: rotate(315deg);
+}
+.wi-towards-nnw {
+  transform: rotate(337.5deg);
+}
+.wi-towards-n {
+  transform: rotate(0);
+}
+.wi-towards-nne {
+  transform: rotate(22.5deg);
+}
+.wi-towards-ne {
+  transform: rotate(45deg);
+}
+.wi-towards-ene {
+  transform: rotate();
+}
+.wi-towards-e {
+  transform: rotate(90deg);
+}
+.wi-towards-ese {
+  transform: rotate(112.5deg);
+}
+.wi-towards-se {
+  transform: rotate(135deg);
+}
+.wi-towards-sse {
+  transform: rotate(157.5deg);
+}
