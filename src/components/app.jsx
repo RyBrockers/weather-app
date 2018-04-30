@@ -4,13 +4,13 @@ import moment from 'moment';
 import WeatherIcon from 'react-icons-weather';
 import classnames from 'classnames';
 
+import LocationDetails from './location-details';
+
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       selectedDate: 0,
-      location: props.location,
-      forecasts: props.forecasts,
     };
 
     this.handleTabSelect = this.handleTabSelect.bind(this);
@@ -23,7 +23,7 @@ class App extends React.Component {
   }
 
   render() {
-    const selectedForecast = this.state.forecasts
+    const selectedForecast = this.props.forecasts
       .find(forecast => forecast.date === this.state.selectedDate);
 
     const summaryClassName = date => classnames('forecast__summary', {
@@ -32,12 +32,13 @@ class App extends React.Component {
 
     return (
       <div className="forecast">
-        <h1 className="forecast__title">
-          {this.state.location.city}, {this.state.location.country}
-        </h1>
+        <LocationDetails
+          city={this.props.location.city}
+          country={this.props.location.country}
+        />
         <div className="forecast__summaries">
           {
-            this.state.forecasts.map(forecast => (
+            this.props.forecasts.map(forecast => (
               <div
                 className={summaryClassName(forecast.date)}
                 key={forecast.date}
