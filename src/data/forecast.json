@@ -16,7 +16,7 @@
       },
       "humidity": 30,
       "description": "Clear",
-      "iconId": "800"
+      "icon": "800"
     },
     {
       "date": 1525132800000,
@@ -30,7 +30,7 @@
       },
       "humidity": 80,
       "description": "Stormy",
-      "iconId": "211"
+      "icon": "211"
     },
     {
       "date": 1525219200000,
@@ -44,7 +44,7 @@
       },
       "humidity": 50,
       "description": "Heavy Snow",
-      "iconId": "602"
+      "icon": "602"
     },
     {
       "date": 1525305600000,
@@ -58,7 +58,7 @@
       },
       "humidity": 80,
       "description": "Tornado",
-      "iconId": "781"
+      "icon": "781"
     },
     {
       "date": 1525392000000,
@@ -72,7 +72,7 @@
       },
       "humidity": 50,
       "description": "Hazy",
-      "iconId": "721"
+      "icon": "721"
     }
   ]
 }

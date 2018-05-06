@@ -1,0 +1,50 @@
+[class*='wi-towards-'] {
+  &:before {
+    content: "\f0b1"
+  }
+}
+.wi-towards-ssw {
+  transform: rotate(202.5deg);
+}
+.wi-towards-sw {
+  transform: rotate(225deg);
+}
+.wi-towards-wsw {
+  transform: rotate(247.5deg);
+}
+.wi-towards-w {
+  transform: rotate(270deg);
+}
+.wi-towards-wnw {
+  transform: rotate(292.5deg);
+}
+.wi-towards-nw {
+  transform: rotate(315deg);
+}
+.wi-towards-nnw {
+  transform: rotate(337.5deg);
+}
+.wi-towards-n {
+  transform: rotate(0);
+}
+.wi-towards-nne {
+  transform: rotate(22.5deg);
+}
+.wi-towards-ne {
+  transform: rotate(45deg);
+}
+.wi-towards-ene {
+  transform: rotate();
+}
+.wi-towards-e {
+  transform: rotate(90deg);
+}
+.wi-towards-ese {
+  transform: rotate(112.5deg);
+}
+.wi-towards-se {
+  transform: rotate(135deg);
+}
+.wi-towards-sse {
+  transform: rotate(157.5deg);
+}
